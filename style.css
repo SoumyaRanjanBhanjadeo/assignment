@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.desktop-check {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.check-round {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.button-group {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 200px;
+}
+
+.checkbox-group {
+    width: 250px;
+}
+
+.checkbox-single {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    width: 215px;
+}
+
+.done-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #FFD700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.done-button:last-child {
+    margin-bottom: 0;
+}
+
+.frame {
+    width: 400px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.dropdown {
+    width: 280px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.frame-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.frame-page:first-child, .frame-page:nth-child(5) {
+    border-bottom: 1px solid #d1caca;
+}
+
+.dropdown .done-button {
+    margin-top: 10px;
+}
